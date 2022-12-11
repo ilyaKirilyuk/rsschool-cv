@@ -65,10 +65,10 @@ function createPhoneNumber(array) {
 
 ## Work experience:
 
-* HTML-developer
- * Freelance (1 year)
- * Outsource (5 months)
- * Company (1 year)
+**HTML-developer**
+* Freelance (1 year)
+* Outsource (5 months)
+* Company (1 year)
 
  ***
 
