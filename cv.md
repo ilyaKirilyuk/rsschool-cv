@@ -1,7 +1,4 @@
 # Ilya Kirilyuk
-
-![Моё фото](images/foto.jpg)
-
 ***
 ## Contacts:
 
