@@ -1,0 +1,200 @@
+/* raleway-regular - latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('../fonts/raleway-v28-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/raleway-v28-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* raleway-500 - latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+        url('../fonts/raleway-v28-latin-500.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/raleway-v28-latin-500.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* raleway-600 - latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+        url('../fonts/raleway-v28-latin-600.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/raleway-v28-latin-600.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* raleway-700 - latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+        url('../fonts/raleway-v28-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/raleway-v28-latin-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #000;
+    --accent: blue;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1012px;
+    padding: 0 15px;
+    margin: 0 auto;
+    border-bottom: 1px solid var(--black);
+    padding: 30px 0;
+}
+
+.header__nav {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list__link {
+    text-decoration: none;
+    color: var(--black);
+    transition: color 0.3s ease;
+}
+
+.nav-list__link:hover {
+    color: var(--accent);
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo__img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.logo__text {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    color: var(--black);
+    margin-bottom: 10px;
+}
+
+.logo__info {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: var(--black);
+}
+
+.header__container {
+    padding: 30px 0;
+}
+
+.header__logo {
+    margin-bottom: 20px;
+}
+
+.header__contacts {
+    justify-content: center;
+}
+
+.contacts {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.contacts__link {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    transition: tranform 0.3s ease;
+}
+
+.contacts__link:hover {
+    transform: scale(1.1);
+}
+
+.contacts__link--instagram {
+    background-image: url('images/instagram.svg');
+}
+
+.contacts__link--telegram {
+    background-image: url('images/telegram.svg');
+
+}
+
+.contacts__item {
+    margin: 0 20px;
+}
+
+.footer__container {
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.footer__logo {
+    text-decoration: none;
+}
+
+.footer__img {
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    object-fit: contain;
+}
+
+.section {}
