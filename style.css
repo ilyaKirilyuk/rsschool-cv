@@ -54,6 +54,7 @@
 
 :root {
     --black: #000;
+    --accent: blue;
 }
 
 h1,
@@ -72,6 +73,28 @@ body {
     margin: 0 auto;
     border-bottom: 1px solid var(--black);
     padding: 30px 0;
+}
+
+.header__nav {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list__link {
+    text-decoration: none;
+    color: var(--black);
+    transition: color 0.3s ease;
+}
+
+.nav-list__link:hover {
+    color: var(--accent);
 }
 
 .logo {

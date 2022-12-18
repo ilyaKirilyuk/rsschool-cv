@@ -14,19 +14,17 @@
 
     <header class="header">
         <div class="container header__container">
-            <nav class="header__nav">
-                <h1 class="header__title">
-                    <a href="#" class="logo header__logo">
-                        <img src="images/foto.jpg" alt="photo" class="logo__img">
-                        <span class="logo__text">
-                            Ilya Kirilyuk
-                        </span>
-                        <span class="logo__info">
-                            Frontend Developer
-                        </span>
-                    </a>
-                </h1>
-            </nav>
+            <h1 class="header__title">
+                <a href="#" class="logo header__logo">
+                    <img src="images/foto.jpg" alt="photo" class="logo__img">
+                    <span class="logo__text">
+                        Ilya Kirilyuk
+                    </span>
+                    <span class="logo__info">
+                        Frontend Developer
+                    </span>
+                </a>
+            </h1>
 
             <ul class="contacts header__contacts">
                 <li class="contacts__item">
@@ -37,11 +35,46 @@
                         class="contacts__link contacts__link--instagram"></a>
                 </li>
             </ul>
+
+            <nav class="header__nav">
+                <ul class="nav-list">
+                    <li class="nav-list__item">
+                        <a href="#about" class="nav-list__link">
+                            About
+                        </a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a href="#skills" class="nav-list__link">
+                            Skills
+                        </a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a href="#example" class="nav-list__link">
+                            Code example
+                        </a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a href="#experience" class="nav-list__link">
+                            Experience
+                        </a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a href="#courses" class="nav-list__link">
+                            Courses
+                        </a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a href="#languages" class="nav-list__link">
+                            Languages
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
 
     <main class="main">
-        <section class="section about-me">
+        <section id="about" class="section about-me">
             <div class="container about-me__container">
                 <h2 class="about-me__title section-title">
                     About me:
@@ -54,7 +87,7 @@
             </div>
         </section>
 
-        <section class="section skills">
+        <section id="skills" class="section skills">
             <div class="container skills__container">
                 <h2 class="skills__title section-title">
                     Skils:
@@ -81,7 +114,8 @@
                 </ul>
             </div>
         </section>
-        <section class="section example">
+
+        <section id="example" class="section example">
             <div class="container example__container">
                 <h2 class="example__title section-title">
                     Code example:
@@ -124,7 +158,8 @@
 
             </div>
         </section>
-        <section class="section experience">
+
+        <section id="experience" class="section experience">
             <div class="container experience__container">
                 <h2 class="experience__title">
                     Work experience:
@@ -148,7 +183,8 @@
                 </ul>
             </div>
         </section>
-        <section class="section courses">
+
+        <section id="courses" class="section courses">
             <div class="container courses__container">
                 <h2 class="courses__title">
                     Courses:
@@ -167,19 +203,20 @@
                 </ul>
             </div>
         </section>
-        <section class="section courses">
-            <div class="container courses__container">
-                <h2 class="courses__title">
+
+        <section id="languages" class="section languages">
+            <div class="container languages__container">
+                <h2 class="languages__title">
                     Languages:
                 </h2>
-                <ul class="courses-list">
-                    <li class="courses-list__item">
-                        <span class="courses-list__text">
+                <ul class="languages-list">
+                    <li class="languages-list__item">
+                        <span class="languages-list__text">
                             Russian - Native
                         </span>
                     </li>
-                    <li class="courses-list__item">
-                        <span class="courses-list__text">
+                    <li class="languages-list__item">
+                        <span class="languages-list__text">
                             English - Basic
                         </span>
                     </li>
