@@ -89,6 +89,7 @@ html {
     padding: 0;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .nav-list__link {
@@ -99,6 +100,10 @@ html {
 
 .nav-list__link:hover {
     color: var(--accent);
+}
+
+.nav-list__item:not(:last-child) {
+    margin-right: 5px;
 }
 
 .logo {
@@ -197,4 +202,15 @@ html {
     object-fit: contain;
 }
 
-.section {}
+@media (max-width: 992px) {
+    .code-example {
+        overflow-x: auto;
+    }
+
+    .nav-list__item {
+        flex: 1 0 45%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+}
